@@ -33,3 +33,73 @@ let x, y = null, z = undefined; // x is already taken as undefined
 console.log(x, y, z);
 
 
+
+// OBJECT TYPE:
+// Objects are mutable and take a value at a time. objects are like container which may contain different types of data.
+// there are 5 types of object type: 1 - array, 2 - date, 3 - regular expression, 4 - map and weakmap, 5 - set abd weakset.
+// Object literal syntax -> {}
+
+// OBJECT
+const OBJ = {};
+OBJ.age = 24;
+OBJ.name = 'Eliza';
+console.log(OBJ);
+
+const OBJE = {
+    name : 'HASAN TAREQUE',
+    sub : 'Computer science engineering'
+};
+
+console.log(OBJE);
+// Deleting attribute from an object
+delete OBJE.sub;
+// Adding attribute to an object
+OBJE.uni = 'Shahjalal University';
+console.log(OBJE);
+
+
+// 1 - ARRAY:
+const A1 = [1, 10.7, true, 'ret'];
+// Array can contain arrays
+const A2 = [[1,2,3],[4,5,6]];
+// changing value
+A2[1] = 'mouse';
+console.log(A1);
+console.log(A2);
+
+
+// 2 - DATE:
+// Date represents date and time
+// recent time
+const NOW = new Date();
+console.log(NOW);
+const RENDOM = new Date(2003, 4, 19);
+console.log(RENDOM);
+const RENDOM2 = new Date(2003, 4, 19, 15, 0);
+console.log(RENDOM2);
+
+
+// 3 - REGULAR EXPRESSION:
+// is sub language of JS. Used to perform complex search and replace operations on strings.
+
+
+
+
+// 4 - MAPS & WEAKMAPS:
+// Maps are just like objects but is offers more advantages than object in certain situations.
+
+// Map assings ROLE to user.
+const ROLE = new Map();
+// ROLE.set(t1, 'user1');
+// ROLE.set(t2, 'user2');
+
+
+
+// 5 - SETS:
+// Sets are similar to array except they can't contain duplicate element
+
+// Set specify ROLE2 to user
+const ROLE2 = new Set();
+ROLE2.add('set user1');
+ROLE2.add('set user2');
+console.log(ROLE2);
