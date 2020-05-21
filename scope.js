@@ -7,3 +7,16 @@ function fun(){
 }
 let b = 20;
 fun();
+
+// Global scoping
+let xx = 'Eliza';
+const A = {
+    c : 'Hasan',
+    d : 'Tareque'
+};
+
+function f(){
+    console.log(`${A.c} ${A.d}  ${xx}` );
+}
+
+f();
