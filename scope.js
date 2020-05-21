@@ -20,3 +20,12 @@ function f(){
 }
 
 f();
+
+// Block scoping
+console.log('start block');
+{
+    let x = 'Love';
+    console.log(x);
+}
+console.log('end Block');
+// console.log(x);      it wont be available here coz the variable is declared in a block
