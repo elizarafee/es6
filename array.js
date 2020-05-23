@@ -35,3 +35,16 @@
  ]
  console.log(ARR5[1]);
  console.log(ARR5[1]());
+
+ // Inserting and deleting from the end: push(x), pop()
+ const ARR = [2, 4, 5, 6, 7, 8];
+ ARR.push(10, 11);
+ ARR.pop();
+ console.log(ARR);
+
+ 
+ // Inserting and deleting at the start: unshift(x), shift()
+ const ARRA = [2, 4, 5, 6, 7, 8];
+ ARRA.unshift(10, 11);
+ ARRA.shift();
+ console.log(ARRA);
