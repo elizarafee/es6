@@ -52,7 +52,13 @@
 
  // Concat() method
  // it only concatinates the detas not changes the original array
+ console.log('Concat() method');
  const ARRA1 = [2, 3, 4, 5, 6, 7];
  console.log(ARRA1.concat(8, 9, 10));
  console.log(ARRA1);
 
+// slice() method
+// shows from a particular index to a particular index
+console.log('Slice() method');
+console.log(ARRA1.slice(3));
+console.log(ARRA1.slice(1,5));
