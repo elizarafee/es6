@@ -62,3 +62,26 @@
 console.log('Slice() method');
 console.log(ARRA1.slice(3));
 console.log(ARRA1.slice(1,5));
+
+// splice() method
+/*
+splice(w, x, y, z, ..., q)
+w = starting index
+x = how many data want to remove
+y, z, ...., q = adding values sequencially
+*/
+console.log('Splice() method');
+
+// it'll delete 2 datas from ist index.
+console.log(ARRA1.splice(1,2));
+console.log(ARRA1);
+
+//  it'll add 10 and 11 from 1st index
+const ARRA2 = [2, 3, 4, 5, 6, 7];
+console.log(ARRA2.splice(1,0,10,11));
+console.log(ARRA2);
+
+//  it'll  delete 2 datas from 1st index and add 10 and 11 on those position
+const ARRA3 = [2, 3, 4, 5, 6, 7];
+console.log(ARRA3.splice(1,2,10,11, 45));
+console.log(ARRA3);
