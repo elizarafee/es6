@@ -48,3 +48,11 @@
  ARRA.unshift(10, 11);
  ARRA.shift();
  console.log(ARRA);
+
+
+ // Concat() method
+ // it only concatinates the detas not changes the original array
+ const ARRA1 = [2, 3, 4, 5, 6, 7];
+ console.log(ARRA1.concat(8, 9, 10));
+ console.log(ARRA1);
+
