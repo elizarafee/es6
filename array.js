@@ -85,3 +85,13 @@ console.log(ARRA2);
 const ARRA3 = [2, 3, 4, 5, 6, 7];
 console.log(ARRA3.splice(1,2,10,11, 45));
 console.log(ARRA3);
+
+
+// copyithin() method : copying array element
+const ARRA4 = [1, 2 ,3 ,4 ,5 ,6];
+// starting index is the 1st perameter and 2nd perameter is where you want to copying index from
+ARRA4.copyWithin(1,3);      // 1,4,5,6,5,6 (5,6 repeated to cover the space of the original array)
+console.log(ARRA4);
+
+// More have to know about copywithin() mmethod
+
