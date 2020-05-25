@@ -95,3 +95,14 @@ console.log(ARRA4);
 
 // More have to know about copywithin() mmethod
 
+
+// fil() method
+// fill all elements at thee array from the start to end index with a static value(arr.fill(value, str, end))
+// (static value, starting index, ending index)
+const ARRA5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+ARRA5.fill('d');
+console.log(ARRA5);
+
+const ARRA6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+ARRA6.fill('A', 3, 6);
+console.log(ARRA6);
