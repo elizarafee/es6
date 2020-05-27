@@ -1,2 +1,1 @@
-
-const ins2 = new StaticClass2();
+console.log(school.showup());
