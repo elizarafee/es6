@@ -41,3 +41,5 @@ console.log(MYMAP.get(b));
 console.log(MYMAP.get(c));
 console.log(MYMAP.get(d));
 
+// checking size of map()
+console.log(MYMAP.size);
