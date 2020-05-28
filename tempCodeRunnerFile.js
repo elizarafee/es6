@@ -1,1 +1,1 @@
-value
+const SET1 = new Set(2, function(){return 56;}, [3, 5.6]);

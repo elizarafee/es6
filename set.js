@@ -9,3 +9,9 @@ SET.add({a : 'Hasan'});
 SET.add(function(){return 12;});
 SET.add([1, 3, 5.7]);
 console.log(SET);
+
+// another way of adding data
+// const SET1 = new Set(2, function(){return 56;}, [3, 5.6]);
+
+const SETT = new Set([2, function(){return 56;}, {a : 'Eliza'}, [3, 5.6]]);
+console.log(SETT);
