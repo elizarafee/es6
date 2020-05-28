@@ -17,3 +17,7 @@ const PRODUCT = CART.map(x => x.product);
 const PRICE = CART.map(x => x.price);
 console.log(`Products are : ${PRODUCT},
 Prices are : ${PRICE}`);
+
+// example : 3
+// making constructor of map
+const MYMAP = new Map();
