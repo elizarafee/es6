@@ -32,8 +32,8 @@ MYMAP.set(a, 'value A');
 MYMAP.set(b, 'value B');
 MYMAP.set(c, 'value C');
 // adding new
-let d;
-MYMAP.set(d, 'new value D');
+let d = 'new';
+MYMAP.set(d, 'value D');
 
 // using get() method for getting the setted key value pairs and print them(MYMAP)
 console.log(MYMAP.get(a));
@@ -43,3 +43,15 @@ console.log(MYMAP.get(d));
 
 // checking size of map()
 console.log(MYMAP.size);
+
+// iterate map() object
+
+// ex : 1
+for(let [key, value] of MYMAP){
+    console.log(key, value);
+}
+
+// ex : 2
+MYMAP.forEach(function(value, key){
+    console.log(key, value);
+})

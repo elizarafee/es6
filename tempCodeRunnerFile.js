@@ -1,1 +1,1 @@
-console.log(school.showup());
+value
