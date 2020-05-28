@@ -34,3 +34,10 @@ MYMAP.set(c, 'value C');
 // adding new
 let d;
 MYMAP.set(d, 'new value D');
+
+// using get() method for getting the setted key value pairs and print them(MYMAP)
+console.log(MYMAP.get(a));
+console.log(MYMAP.get(b));
+console.log(MYMAP.get(c));
+console.log(MYMAP.get(d));
+
