@@ -20,5 +20,8 @@ let weakmap = new WeakMap();
 
 let obj1 = {};
 let obj2 = {};
+// set() is for setting data and get is for getting those data
 weakmap.set(obj1, 'first data');
 weakmap.set(obj2, 'second data');
+console.log(weakmap.get(obj1));
+console.log(weakmap.get(obj2));
