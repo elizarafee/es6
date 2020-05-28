@@ -6,7 +6,7 @@ let user = {
 
 console.log(user.name);
 user = null;
-console.log(user.name);      // now JS will put junk data to name
+//console.log(user.name);      // now JS will put junk data to name
 
 // in case of weakMap() the keys have to be object
 // weakmap can't be iterated or cleared 
@@ -17,3 +17,8 @@ console.log(user.name);      // now JS will put junk data to name
 
 // weakMap():
 let weakmap = new WeakMap();
+
+let obj1 = {};
+let obj2 = {};
+weakmap.set(obj1, 'first data');
+weakmap.set(obj2, 'second data');
