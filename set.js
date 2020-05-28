@@ -15,3 +15,10 @@ console.log(SET);
 
 const SETT = new Set([2, function(){return 56;}, {a : 'Eliza'}, [3, 5.6]]);
 console.log(SETT);
+
+// checking presence of data
+console.log(SETT.has(2));       // true
+
+// deleting data
+SETT.delete(2);
+console.log(SETT.has(2));   	// false
