@@ -22,3 +22,14 @@ console.log(SETT.has(2));       // true
 // deleting data
 SETT.delete(2);
 console.log(SETT.has(2));   	// false
+
+
+// iterating set()
+// way : 1
+for(let item of SETT){
+    console.log(item);
+}
+// way : 2
+SETT.forEach(value=>{
+    console.log(value);
+});
