@@ -21,3 +21,16 @@ Prices are : ${PRICE}`);
 // example : 3
 // making constructor of map
 const MYMAP = new Map();
+
+let a = 'HELLO',
+    b = {},
+    c = function(){};
+
+
+// use set() method to set key, value
+MYMAP.set(a, 'value A');
+MYMAP.set(b, 'value B');
+MYMAP.set(c, 'value C');
+// adding new
+let d;
+MYMAP.set(d, 'new value D');
