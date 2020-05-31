@@ -1,5 +1,3 @@
-try{
-    let ;
-}catch(e){
-    console.log(`Error is : ${e}`);
-}
+let i = document.getElementById("para");
+
+// console.log(i);
