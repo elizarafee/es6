@@ -38,3 +38,38 @@ pro.then((message)=> {
 }).catch((message)=>{
     console.log('reject: '+ message);
 })
+
+// EX: 3: Multiple promises
+
+const r = new Promise((resolve, reject)=> {
+    let p = 1
+    if(p == 1){
+        resolve('resolve : 1');
+    }else{
+        reject('reject : 1');
+    }  
+})
+
+const t = new Promise((resolve, reject)=> {
+    let p = 1
+    if(p == 1){
+        resolve('resolve : 1');
+    }else{
+        reject('reject : 1');
+    }  
+})
+
+const y = new Promise((resolve, reject)=> {
+    let p = 1
+    if(p == 1){
+        resolve('resolve : 1');
+    }else{
+        reject('reject : 1');
+    }  
+})
+
+Promise.all([r, t, y]).then((message)=> {
+    console.log(message);
+}).catch((message)=>{
+    console.log(message);
+})
